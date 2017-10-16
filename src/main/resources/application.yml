@@ -1,0 +1,41 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: mrcooper@vs-ssh.visualstudio.com:22/DefaultCollection/Letterbox/_ssh/letterbox-configurations
+          ignoreLocalSshSettings: true
+          hostKey: someHostKey
+          hostKeyAlgorithm: ssh-rsa
+          privateKey: 
+                      -----BEGIN RSA PRIVATE KEY-----
+                      MIIEpAIBAAKCAQEAwLV/tYg3flt13g6MK7ehitv3zrtUud/Gxt9bKY5V7Zubuwxg
+                      hKlJkDwb4IlVJjtks4MQ8kRpOC2u2vR2ro2s2SC1R+1NyloV6I7zIALNPCpSHFQ5
+                      eqxwKUj4lOiBMw5jCGe4oxTi1582P7jhZdf45COGRLx6X23imDov8nAqkDiNqv+x
+                      w6ZcbCNQMxZ71NRiiALw8ifM6WmnuJAyAODiTe3JhQJSgBsGGPTdPx8YH+FVt/dm
+                      UFa1Lwea0Ge9qV4qLSog6bLiht9b7Qi+DOv0N/k1CdrBa8gvNEyno2woGpujjvSA
+                      uMqiqkrQ8e/D7eHPpAX4336bdoYUZicC2fjyUQIDAQABAoIBAQCBZR1EYhuI75ac
+                      LL532ExS9dJV8Lk6OYS6Il2O8LDH47VUikIAsb7gZ0v8n5oaGsVKN9ZYJhFUlHAV
+                      OxK5sA2AmZK/ohqapZSSW/Hp65etL2mE9hTGRyTkw8eODPQ7uQxMJ4D1l9+dEp2V
+                      eel2vea0IRpV6wxsKVd+CYwKSMB7pyMOIQk86wA3L20nBI7ETdnnQU35OoyThjag
+                      ALc2gqnawvy4zGlTUt1FmOv2Z+X7xc87GPUDPT5nuPKU5wN4pxumknKtXsKbxwN9
+                      JtCw19gr/lJM8EhyFiZC/7amaFo8gS8CWYmia6c+nj4K03tA4wM7/0mUdPYAt9dd
+                      wU6Ya86xAoGBAOcH62plQ9ingWHjtPJvf/emf1+JaQqKZL1mQLa0ps+q6RjyL9vl
+                      S6Um3WlVmE6ZELSKLFsdL1/7t0Gd/099stzl24qZLk9mRp5Y4WH8H4TtZmiY2MxA
+                      Lii2thWNOmlQCuaXCbTVHMSrvltstUb3Lq0Jpl4TyVJtIarKxwXQ0QatAoGBANWJ
+                      TR6g/PyP4CK8KKAJ1YHQHkuXCbadEHTXXGslolaNyoX6mCLYeYUvpsgW/z+T4d9q
+                      Tk9E/RmEyUOKBauBs3rDBBelFycxFfAXXznoOVylp83QF3T/HhBH1ZyBUu40dBV5
+                      HAe8BPsNH+IBUact5RPv3tqQJS1EBal90WqZRWK1AoGAI9ObkzU+7zMSok6AefQG
+                      gS4FpJgXfPX3J1PbBzo+gAe9/AtalpwZPfQn87S9WLrt10FyHXMKLLVJNti8heQ1
+                      P4I5qGWWw+NVYirgUKSbcq6p6eCCBjKRteiXlgH/o+MwvY+AhtVhj7IeY+kYt3eP
+                      em/7p60j1C9uQCEP+fvm3kUCgYA0Xd+Ty1c/eOk2m347AS5jD27eisPPDOWkQcxg
+                      WnJdV5h7EuGMahojF3SHTVx7cwDJkYBy4DBRucbB0W9iiARD7t9qDQqIifkfUBwC
+                      T3kBx35HcujNwGLXC0bPgsebszFksra1Dt8J0kYnXrtvjEnJgeHdJ8x2NWBOGJTq
+                      13u0oQKBgQCCht04W9ogqTOVaHPRZf3zSExJ/0TRLnEm5w7eZsQGKvtpip9Q/V77
+                      +xpq6VReBbgXTJygraNi+2enjfvLjOJx4uqPJ716A2C7x0WyKp1bx4RoleSSf+X7
+                      prYkQu3ybWcpEnIEa0wBquGx7SMLfhplnYViwoUQPxeyDkewkwX0nw==
+                      -----END RSA PRIVATE KEY-----
+          
